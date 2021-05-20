@@ -1,0 +1,60 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin :0;
+    padding: 0;
+}
+
+ul{
+    display :flex;
+    flex-direction: row;
+}
+ 
+li{
+    list-style: none;
+    padding: 13px 30px;
+}
+a{
+    text-decoration: none;
+    color:floralwhite;
+}
+nav{
+    top :0px; 
+    margin: 0px 0px;
+    padding :11px ;
+    background-color: rgb(24, 26, 26);
+}
+body :before{
+    height :100%;
+    opacity: 0.5;
+    z-index:-1;
+    width:100%;
+    content: " ";
+    top:0px;
+    left :0px;
+    position:absolute;
+    background: url('/static/bggym.jpg') no-repeat center center ;
+    background-size: cover;
+
+}
+/* .container{ */
+    /* padding :px; */
+    /* background-color: cadetblue; */
+/* } */
+h1{
+    text-align: center;
+    color :whitesmoke;
+}
+input,textarea {
+    display :block;
+    padding: 4px;
+    margin :10px auto;
+}
+.btn{
+    margin :4px auto; 
+    display: block;
+    cursor: pointer;
+    padding :5px 5px;
+    border-radius: 2px;
+    background-color: rgb(48, 143, 172);
+    color: cornsilk;
+}
